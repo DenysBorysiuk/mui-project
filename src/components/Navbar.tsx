@@ -4,7 +4,6 @@ import {
   Avatar,
   Badge,
   Box,
-  Fade,
   InputBase,
   Menu,
   MenuItem,
