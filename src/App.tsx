@@ -3,6 +3,7 @@ import Feed from './components/Feed';
 import Rightbar from './components/Rightbar';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
+import Add from './components/Add';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Feed />
         <Rightbar />
       </Stack>
+      <Add />
     </Box>
   );
 };
