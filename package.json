@@ -4,6 +4,8 @@
   "version": "5.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -20,6 +22,7 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",
+    "gh-pages": "^6.0.0",
     "typescript": "latest",
     "vite": "latest"
   }
